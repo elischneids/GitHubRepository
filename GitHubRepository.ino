@@ -1,9 +1,12 @@
 int ledPin = 13;
 int ledPin2 = 14;
 
+int buttonPin = 15;
+
 void setup() {
   pinMode(ledPin, OUTPUT);
   pinMode(ledPin2, OUTPUT);
+  pinMode(buttonPin, INPUT);
 
 }
 
